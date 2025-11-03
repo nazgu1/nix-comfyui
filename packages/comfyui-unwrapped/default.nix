@@ -17,7 +17,7 @@ let
     owner = "comfyanonymous";
     repo = "ComfyUI";
     fetchSubmodules = false;
-    rev = "fd5dfb812cfc9e53ff4e83534a49468b72509661";
+    rev = "f2bb3230b796f6a486894fc3b597db2c0b9538c9";
     hash = "sha256-0+oP8/9k4XUwqM/EHqOlgIA+kmZtC4Q7fi85yeJg/cs=";
   };
 
