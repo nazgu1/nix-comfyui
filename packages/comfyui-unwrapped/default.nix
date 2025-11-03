@@ -1,4 +1,9 @@
-{ emptyPyproject, fetchFromGitHub, lib, python3 }:
+{
+  emptyPyproject,
+  fetchFromGitHub,
+  lib,
+  python3,
+}:
 
 let
   pyproject = emptyPyproject.override {
@@ -54,10 +59,6 @@ python3.pkgs.buildPythonPackage {
     python3.pkgs.tqdm
     python3.pkgs.transformers
     python3.pkgs.typing-extensions
-  ];
-
-  patches = [
-    ./0001-fix-version.patch
   ];
 
   postPatch = ''
